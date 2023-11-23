@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2665318e53759e74db7a2d8238331945, type: 3}
+  m_Name: E
+  m_EditorClassIdentifier: 
+  stepsPerFrame: 10
+  width: 1280
+  height: 720
+  numAgents: 50000
+  spawnMode: 1
+  trailWeight: 300
+  decayRate: 0.4
+  diffuseRate: 0.2
+  speciesSettings:
+  - moveSpeed: 2
+    turnSpeed: 2
+    sensorAngleSpacing: 2
+    sensorOffsetDst: 2
+    sensorSize: 2
+    colour: {r: 1, g: 0, b: 0.9176221, a: 0}
+  - moveSpeed: 3
+    turnSpeed: 2
+    sensorAngleSpacing: 2
+    sensorOffsetDst: 2
+    sensorSize: 2
+    colour: {r: 0.28776702, g: 0.041429326, b: 0.5686275, a: 0}
+  - moveSpeed: 10
+    turnSpeed: 20
+    sensorAngleSpacing: 2
+    sensorOffsetDst: 2
+    sensorSize: 2
+    colour: {r: 0.043137245, g: 0.11490544, b: 0.77254903, a: 0}
